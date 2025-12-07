@@ -1,0 +1,8 @@
+To change home directory name in ubuntu:
+sudo hostnamectl set-hostname <new homedirectory name>
+root@ip-172-31-2-122:/home/ubuntu# sudo hostnamectl set-hostname K8s-Master
+root@ip-172-31-2-122:/home/ubuntu# cd
+root@ip-172-31-2-122:~# exit
+exit
+ubuntu@ip-172-31-2-122:~$ exec bash
+ubuntu@K8s-Master:~$
